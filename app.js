@@ -16,50 +16,52 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
 const speakers = [
   {
     name: 'Jason Butler',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+    description: 'simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer',
     image: 'images/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray.jpeg',
     role: 'Head of Programmes',
   },
 
   {
     name: 'Brandel Smith',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+    description: 'simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer',
     image: 'images/african-woman-successful-entrepreneur-wearing-glasses-face-portrait.jpeg',
     role: 'curriculum Developer',
   },
   {
     name: 'Tade Johnson',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+    description: 'simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer',
     image: 'images/confident-african-businesswoman-smiling-closeup-portrait-jobs-career-campaign.jpeg.crdownload',
     role: 'Instructor',
   },
   {
     name: 'Michael Brian',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+    description: 'simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer',
     image: 'images/happy-successful-businessman-posing-outside.jpeg',
     role: 'Edtech Coach',
   },
   {
     name: 'Ariel Tamad-Lee',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+    description: 'simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer.',
     image: 'images/confident-african-businesswoman-smiling-closeup-portrait-jobs-career-campaign.jpeg.crdownload',
     role: 'Student Team',
   },
   {
     name: 'Amie Sanderson',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.',
+    description: 'simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer.',
     image: 'images/confident-professional-businesswoman-cross-arms-chest-looking-selfassured-camera-smiling-standing-white-background.jpeg',
     role: 'Lead Faci',
   },
 ];
 const works = document.querySelector('.team');
-const newWorks = speakers.map((speaker) => `<div class="grid multi-column person">
-    <div>
+const newWorks = speakers.map((speaker) => `<div class="grid person">
+    <div class="para-div flex">
         <img src=${speaker.image}
-         class="img img-fluid">
+         class="img2">
+         <div class='para'><p style="font-size:12px">${speaker.name}</p>
+    <p style="font-size:12px; color= #ec4327">${speaker.role}</p>
+     <p style="font-size:5px">${speaker.description}</p></div>
     </div>
-    <div><p>${speaker.name}</p>
-    <p>${speaker.role}</p></div>
+    
     </div>`).join('');
 
 document.addEventListener('DOMContentLoaded', () => {
