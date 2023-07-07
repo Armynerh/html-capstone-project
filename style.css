@@ -18,6 +18,7 @@ nav {
 
 p {
   margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -31,10 +32,10 @@ nav a {
 }
 
 .hamburger-nav {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 600;
   margin: 0 20px;
-  padding-top: 20px;
+  padding-top: 10px;
   width: 60%;
 }
 
@@ -44,14 +45,26 @@ nav a {
 
 .top-paragraph {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 5px;
+  font-size: 25px;
+  font-weight: 400;
 }
 
-.top-heading h1 {
-  align-self: center;
-  font-size: 27px;
+.last-p {
+  margin-bottom: 70px;
+}
+
+.top-heading {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
   font-weight: 800;
-  font-family: 'Cocogoose', sans-serif;
+  font-family: 'cocogoose', sans-serif;
   background-image: url(images/christmas-travel-concept-with-airplane.jpeg);
   background-size: 100%;
   background-size: cover;
@@ -245,6 +258,19 @@ nav a {
   width: 35%;
 }
 
+.img3 {
+  width: 5%;
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+}
+
+.minus {
+  width: 3px;
+  background-color: #ec4327;
+  height: 2px;
+}
+
 .top-section {
   background-image: url(images/5564814.jpg);
   background-repeat: no-repeat;
@@ -252,10 +278,22 @@ nav a {
 }
 
 .top-container {
-  padding: 20px 40px;
+  padding: 5px 10px;
   display: grid;
+  width: 50%;
+  margin-left: 90px;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.para-div {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.para {
+  margin: 20px;
 }
 
 .our-team {
@@ -271,9 +309,17 @@ nav a {
   padding: 20px;
 }
 
-.logo-container,
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-container {
-  display: none;
+  height: 150px;
+  text-align: center;
+  align-items: center;
 }
 
 .btn-container {
@@ -309,6 +355,7 @@ nav a {
     color: #868686;
     height: 75px;
     position: sticky;
+    margin: auto;
   }
 
   .campaign {
@@ -380,11 +427,13 @@ nav a {
     grid-template-rows: 1fr;
     width: 18%;
     margin: 1px;
+    padding: 7px 0;
   }
 
   .center-self {
     justify-content: center;
   }
+
 
   .two-column {
     grid-template-columns: 1fr 1fr;
@@ -412,11 +461,5 @@ nav a {
 
   footer {
     display: block;
-  }
-
-  .footer-container {
-    height: 150px;
-    text-align: center;
-    align-items: center;
   }
 }
