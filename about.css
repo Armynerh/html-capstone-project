@@ -1,0 +1,422 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  padding: 0 10px;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f36349cb;
+}
+
+.top-nav,
+.bottom-nav {
+  display: none;
+}
+
+.hamburger-nav {
+  font-size: 55px;
+  font-weight: 600;
+  margin: 0 20px;
+  padding-top: 20px;
+  width: 60%;
+}
+
+.hamburger-menu {
+  display: none;
+  height: 95vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  margin-top: 0;
+  border-bottom-left-radius: 38px;
+  border-bottom-right-radius: 38px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  font-size: 30px;
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.nav-item {
+  border-bottom: 1px solid #868686;
+  width: 30%;
+}
+
+.hamburger-menu.active {
+  display: flex;
+}
+
+.person {
+  margin: 5px;
+}
+
+.top-heading {
+  display: flex;
+  width: 70%;
+  text-align: center;
+  align-self: center;
+  font-size: 27px;
+  font-family: 'Cocogoose', sans-serif;
+  background-image: url(images/christmas-travel-concept-with-airplane.jpeg);
+  background-size: 100%;
+  background-size: cover;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  margin: auto;
+}
+
+.font1 {
+  font-size: 90px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0;
+}
+
+.font2 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0;
+  margin: 10px;
+}
+
+.font3 {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.double-paragraph {
+  width: 70%;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 20px auto;
+}
+
+.one-column {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.multi-column {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.programme-container {
+  background-image:
+    linear-gradient(45deg, #4b4848f2 25%, transparent 25%),
+    linear-gradient(-45deg, #423e3eb1 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #363535cf 75%),
+    linear-gradient(-45deg, transparent 75%, #1a1919a8 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+  padding: 20px;
+}
+
+.programme-cards {
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.min-cards {
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.logo a {
+  color: #c2c2c2;
+}
+
+.programme-head {
+  margin-bottom: 20px;
+}
+
+.bg-first {
+  background-color: #272a31;
+}
+
+.bg-second {
+  background-color: #5c5a5aa6;
+}
+
+.first-font {
+  font-size: 5px;
+  font-weight: 200;
+}
+
+.ff-color {
+  color: rgb(238, 92, 86);
+}
+
+.sf-color {
+  color: #fff;
+}
+
+.tf-color {
+  color: #272a31;
+}
+
+.ef-color {
+  color: #c2c2c2;
+}
+
+.img {
+  width: 50%;
+}
+
+.img2 {
+  width: 75%;
+}
+
+.top-section {
+  background-image: url(images/5564814.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.team {
+  margin: 40px;
+}
+
+.logo1 {
+  padding: 2px;
+}
+
+.logo {
+  margin: 15px;
+}
+
+.copyright {
+  align-self: center;
+}
+
+.logo-container {
+  width: 50%;
+  margin: 0 auto;
+  height: 340px;
+  align-items: center;
+}
+
+.contact {
+  margin-top: 30px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+.footer-container {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.btn-container {
+  height: 90px;
+}
+
+.btn {
+  border: 1px solid #272a31;
+  width: 80%;
+}
+
+.btn span {
+  padding: 10px;
+}
+
+.min-write {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #272a3138;
+  margin: auto;
+  padding: 10px;
+  height: 324px;
+}
+
+.abt-head {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 15px;
+}
+
+@media (min-width: 768px) {
+  .top-nav {
+    background-color: #000;
+    height: 22px;
+    cursor: pointer;
+    color: #fff;
+    position: sticky;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .bottom-nav {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #868686;
+    height: 75px;
+    position: sticky;
+  }
+
+  .campaign {
+    display: flex;
+    width: 123px;
+    height: 48px;
+    padding: 0 17px 0 18px;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #ec4327;
+    color: #ec4327;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .items {
+    margin: 20px 15px;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-center {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-end {
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .in-nav {
+    width: 90%;
+  }
+
+  .ul-nav {
+    list-style-type: none;
+  }
+
+  .hamburger-nav {
+    display: none;
+  }
+
+  .programme-cards {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .min-cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 18%;
+    margin: 1px;
+  }
+
+  .center-self {
+    justify-content: center;
+  }
+
+  .two-column {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .logo-container {
+    display: none;
+    width: 70%;
+    margin: 0 auto;
+    height: 340px;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 15px;
+  }
+
+  .copyright {
+    align-self: center;
+  }
+
+  .btn-container {
+    display: none;
+  }
+
+  footer {
+    display: block;
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .abt-container {
+    display: flex;
+    background: #ec4327;
+    align-items: center;
+    justify-content: center;
+  }
+}
