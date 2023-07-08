@@ -83,7 +83,6 @@ For more information on the importance of a professional README for your reposit
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Mobile Version]**
 - **[Desktop Version]**
@@ -95,9 +94,8 @@ For more information on the importance of a professional README for your reposit
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://armynerh.github.io/html-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +124,6 @@ Example commands:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Aminat Kehinde Henshaw**
 
@@ -171,6 +168,10 @@ If you like this project follow me.
 I would like to thank all micronauts especially the contributors and reviewers.
 
 All Images are gotten from [Freepik](https://www.freepik.com)
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
