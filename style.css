@@ -258,6 +258,10 @@ nav a {
   width: 35%;
 }
 
+.img5 {
+    width: 25%;
+  }
+
 .img3 {
   width: 5%;
   margin: 0;
@@ -293,9 +297,40 @@ nav a {
 }
 
 .para {
-  margin: 20px;
+  margin: 7px;
+  padding-top: 10px;
+  text-align: left;
 }
 
+.speaker-head {
+    color: #000;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    padding-bottom: 2px;
+}
+.desc1{
+    color: #F78C89;
+font-family: Lato;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.2px;
+width: 176px;
+padding-bottom: 2px;
+}
+
+.desc2{
+    color: #000;
+    font-family: Lato;
+font-size: 9px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.54px;
+width: 176px;
+}
 .our-team {
   margin: 40px;
   font-size: 20px;
@@ -356,6 +391,10 @@ nav a {
     height: 75px;
     position: sticky;
     margin: auto;
+  }
+
+  .img5 {
+    width: 35%;
   }
 
   .campaign {
