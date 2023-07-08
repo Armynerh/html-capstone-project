@@ -259,8 +259,8 @@ nav a {
 }
 
 .img5 {
-    width: 25%;
-  }
+  width: 25%;
+}
 
 .img3 {
   width: 5%;
@@ -303,34 +303,35 @@ nav a {
 }
 
 .speaker-head {
-    color: #000;
-    font-family: Lato;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: -0.3px;
-    padding-bottom: 2px;
-}
-.desc1{
-    color: #F78C89;
-font-family: Lato;
-font-size: 10px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: -0.2px;
-width: 176px;
-padding-bottom: 2px;
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  padding-bottom: 2px;
 }
 
-.desc2{
-    color: #000;
-    font-family: Lato;
-font-size: 9px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: -0.54px;
-width: 176px;
+.desc1 {
+  color: #f78c89;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  width: 176px;
+  padding-bottom: 2px;
 }
+
+.desc2 {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.54px;
+  width: 176px;
+}
+
 .our-team {
   margin: 40px;
   font-size: 20px;
@@ -377,7 +378,6 @@ width: 176px;
     cursor: pointer;
     color: #fff;
     position: sticky;
-    font-family: 'Lato', sans-serif;
   }
 
   .bottom-nav {
