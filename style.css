@@ -321,12 +321,14 @@ nav a {
   width: 176px;
   padding-bottom: 2px;
 }
-.min-txt{
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 200;
-    padding:5px
+
+.min-txt {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 200;
+  padding: 5px;
 }
+
 .desc2 {
   color: #000;
   font-family: 'Lato', sans-serif;
