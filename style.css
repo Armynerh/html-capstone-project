@@ -259,7 +259,7 @@ nav a {
 }
 
 .img5 {
-  width: 25%;
+  width: 31%;
 }
 
 .img3 {
@@ -322,9 +322,10 @@ nav a {
   padding-bottom: 2px;
 }
 .min-txt{
-    font-size: 11px;
+    font-size: 10px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 200;
+    padding:5px
 }
 .desc2 {
   color: #000;
@@ -395,10 +396,6 @@ nav a {
     height: 75px;
     position: sticky;
     margin: auto;
-  }
-
-  .img5 {
-    width: 35%;
   }
 
   .campaign {
